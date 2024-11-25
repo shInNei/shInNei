@@ -1,0 +1,24 @@
+name: Generate Snake Game from GitHub Contributions
+
+on:
+  # Run automatically at midnight every day
+  schedule:
+    - cron: "0 0 * * *"
+  # Allow the workflow to be manually triggered
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Snake Animation
+        uses: Platane/snk@v2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/snake.svg
+
+      - name: Push Snake Animation to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
