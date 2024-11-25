@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Step 1: Generate the snake game from your contributions
+      - uses: actions/checkout@v2
       - uses: Platane/snk@v2
         id: snake-gif
         with:
