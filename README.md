@@ -1,6 +1,6 @@
 ## Hi there 👋, I'm [Thinh!](https://github.com/shInNei)
 
-![GitHub Snake Light](https://raw.githubusercontent.com/shInNei/shInNei/output/github-contribution-grid-snake.svg)
+![GitHub Snake Light](https://raw.githubusercontent.com/shInNei/shInNei/output/github-contribution-grid-snake-dark.svg)
 
 <!--
 **shInNei/shInNei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
