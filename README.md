@@ -2,6 +2,8 @@
 
 ![GitHub Snake Light](https://raw.githubusercontent.com/shInNei/shInNei/output/github-contribution-grid-snake-dark.svg)
 
+Welcome to my code repository! 💻 
+If you want to dive deeper into my detailed projects or learn more about me, feel free to check out my portfolio at **[shinnei.github.io](https://shinnei.github.io)**.
 <!--
 **shInNei/shInNei** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
